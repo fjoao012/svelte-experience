@@ -1,7 +1,7 @@
 <script>
     import { links } from 'svelte-routing';
 
-    export let book = {}
+    export let book = {};
     export let interactive = false;
 
     function isValidUrl(url) {

@@ -9,7 +9,7 @@
     onMount(async function() {
         const {data} = await httpGet('/?_sort=id&_order=desc');
         books = data;
-    })
+    });
 </script>
 
 <style>
