@@ -42,4 +42,4 @@
 </p>
 
 <Button>+ Add Book</Button>
-<BookGrid books={books}></BookGrid>
+<BookGrid books={books} />
