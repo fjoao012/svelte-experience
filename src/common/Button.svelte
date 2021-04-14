@@ -30,6 +30,11 @@ import { links } from 'svelte-routing';
     outline: none;
     text-decoration: none;
   }
+  .button:active {
+    background: var(--colorCta);
+    filter: brightness(80%);
+    outline: none;
+  }
 </style>
 
 {#if to}

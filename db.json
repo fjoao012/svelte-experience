@@ -14,7 +14,7 @@
       "author": "Ray Bradbury",
       "cover": "",
       "about": "Enter a dystopian future where books with ideas are dangerous, controlled and burned.",
-      "variation": 1
+      "variation": 3
     },
     {
       "id": 3,
@@ -30,7 +30,7 @@
       "author": "Harper Lee",
       "cover": "https://i.imgur.com/BPmn7bUm.jpg",
       "about": "A girl learns to trust the wisdom of her father and not be dismayed by the prejudice around here.",
-      "variation": 0
+      "variation": 3
     },
     {
       "id": 5,
@@ -39,6 +39,15 @@
       "cover": "",
       "about": "Man hunts whale with a vengeance. In the end, he's the last man stand. I guess he won.",
       "variation": 1
+    },
+    {
+      "title": "Viagem ao Centro da Terra",
+      "author": "Júlio Verne",
+      "cover": "https://img.wook.pt/images/viagem-ao-centro-da-terra-julio-verne/MXw4MDE3MTY3fDQ1MjQyNDh8MTM4MzUyMzIwMDAwMHx3ZWJw/502x",
+      "about": "Depois de descobrir e decifrar um misterioso manuscrito rúnico, onde um alquimista islandês afirma ter ido ao centro da Terra, o Professor Otto Lidenbrock, o seu sobrinho Axel e Hans, um caçador islandês, partem numa grandiosa viagem às profundezas da Terra. E é então que começa a verdadeira aventura. Um novo mundo aguarda-os, um mundo onde o tempo parou…onde os dinossauros ainda andam pelas florestas, gigantescos animais dominam os mares e homens pré-históricos habitam as cavernas.\nMas conseguirá o grupo regressar a casa e abandonar um mundo repleto de perigos?",
+      "variation": 0,
+      "favorite": true,
+      "id": 6
     }
   ]
 }

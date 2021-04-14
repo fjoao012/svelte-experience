@@ -5,12 +5,12 @@
     export let interactive = false;
 
     function isValidUrl(url) {
-        return url && /http.+\.(jpg|png|gif)$/.test(url);
+        return url; // && /http.+\.(jpg|png|gif)$/.test(url);
     }
 </script>
 
 <style>
-      .book {
+  .book {
     --bg: #f5c839;
     --bgDark: #f3b131;
     --bgLight: #ffde77;
@@ -32,6 +32,11 @@
     --bg: #76c267;
     --bgDark: #57b356;
     --bgLight: #a6e69a;
+  }
+  .book--variation-3 {
+    --bg: #67bcc2;
+    --bgDark: #359b96;
+    --bgLight: #9adbe6;
   }
 
   .book--interactive {
@@ -102,7 +107,7 @@
     use:links
     class="book book--interactive book--variation-{book.variation} 
     {isValidUrl(book.cover) ? 'book--cover' : 'book--no-cover'}">
-      <span class="cover" style={isValidUrl(book.cover) ? 'background-image: url' + book.cover + ')' : ''}>
+      <span class="cover" style={isValidUrl(book.cover) ? 'background-image: url(' + book.cover + ')' : ''}>
           <span class="title">{book.title || ''}</span>
           <span class="author">{book.author || ''}</span>
       </span>
